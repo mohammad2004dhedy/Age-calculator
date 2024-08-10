@@ -12,7 +12,7 @@ function calculateAge() {
   let m2 = today.getMonth();
   let y2 = today.getFullYear();
 
-  let y3, m3, d3; //بتخزن فرق العمر
+  let y3, m3, d3; 
 
   y3 = y2 - y1;
   if (m2 >= m1) {
@@ -43,5 +43,4 @@ function calculateAge() {
 }
 function calculateDaysInMonth(Year, Month) {
   return new Date(Year, Month, 0).getDate();
-  //هيك بترجع اخر يوم او الي هو اخر تاريخ بهاد الشهر
 }
