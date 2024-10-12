@@ -44,18 +44,7 @@
   font-size: 1rem;
   border-radius: 10px;
 }
-.input-box input::-webkit-calendar-picker-indicator {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  height: auto;
-  background-position: calc(5%);
-  background-size: 30px;
-  cursor: pointer;
-}
+
 .input-box button {
   border: 0;
   outline: 0;
